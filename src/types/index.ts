@@ -1,0 +1,30 @@
+export interface StudentData {
+  hostelId: string;
+  rollNo: string;
+  fullName: string;
+  dateOfBirth: string;
+  age: number;
+  degree: 'Under Graduate' | 'Post Graduate';
+  course: string;
+  year: 'I' | 'II' | 'III' | 'IV';
+  department: string;
+  college: string;
+  phoneNo: string;
+  emailId: string;
+  nativePlace: string;
+  permanentAddress: string;
+  distance: number;
+  category: 'SC' | 'ST' | 'BC-A' | 'BC-B' | 'BC-C' | 'BC-D' | 'BC-E' | 'Minority' | 'O.C.';
+  physicallyChallenge: boolean;
+  bloodGroup: string;
+  messOption: 'Vegetarian' | 'Non-vegetarian';
+  scholarshipHolder: boolean;
+  previousResident: boolean;
+  previousYear?: string;
+  hostel?: string;
+  roomNo?: string;
+  fatherName: string;
+  occupation: string;
+  annualIncome: number;
+  parentGuardianCell: string;
+}
