@@ -47,7 +47,7 @@ export const LandingPage: React.FC = () => {
                 onClick={() => navigate('/login')}
                 className="group inline-flex items-center px-8 py-3 text-lg font-medium text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-fade-in-up delay-200"
               >
-                Get Started
+                Login
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
