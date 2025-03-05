@@ -51,7 +51,7 @@ const UnderConstruction: React.FC<{ title: string }> = ({ title }) => {
         </div>
         <h2 className="text-2xl font-bold text-yellow-700 mb-2">{title}</h2>
         <p className="text-yellow-600">
-          This page is currently under construction. Please check back later.
+          This page is currently under construction by BATCH13. Please check back later.
         </p>
       </div>
     </div>
