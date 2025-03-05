@@ -5,23 +5,23 @@ import { School, ArrowRight, Users, BookOpen, Building2 } from 'lucide-react';
 export const LandingPage: React.FC = () => {
   const navigate = useNavigate();
 
-  const features = [
-    {
-      icon: <Users className="w-6 h-6 text-blue-500" />,
-      title: "Student Management",
-      description: "Efficiently manage student records and admissions"
-    },
-    {
-      icon: <BookOpen className="w-6 h-6 text-blue-500" />,
-      title: "Fee Management",
-      description: "Streamlined fee collection and payment tracking"
-    },
-    {
-      icon: <Building2 className="w-6 h-6 text-blue-500" />,
-      title: "Hostel Administration",
-      description: "Complete hostel management and room allocation"
-    }
-  ];
+  // const features = [
+  //   {
+  //     icon: <Users className="w-6 h-6 text-blue-500" />,
+  //     title: "Student Management",
+  //     description: "Efficiently manage student records and admissions"
+  //   },
+  //   {
+  //     icon: <BookOpen className="w-6 h-6 text-blue-500" />,
+  //     title: "Fee Management",
+  //     description: "Streamlined fee collection and payment tracking"
+  //   },
+  //   {
+  //     icon: <Building2 className="w-6 h-6 text-blue-500" />,
+  //     title: "Hostel Administration",
+  //     description: "Complete hostel management and room allocation"
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-blue-50">
@@ -37,7 +37,7 @@ export const LandingPage: React.FC = () => {
                 </div>
               </div>
               <h1 className="text-5xl font-extrabold text-gray-900 mb-6 tracking-tight animate-fade-in-up">
-                Acharya Nagarjuna University
+                ANUCET
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100">
                 Welcome to the next generation Engineering Hostel Management System. 
@@ -56,7 +56,7 @@ export const LandingPage: React.FC = () => {
       </div>
 
       {/* Features Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 animate-fade-in-up delay-300">
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 animate-fade-in-up delay-300">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
@@ -75,7 +75,7 @@ export const LandingPage: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-100 py-8">
