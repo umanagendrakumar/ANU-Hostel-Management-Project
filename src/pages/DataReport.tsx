@@ -6,7 +6,7 @@ import { DashboardCard } from '../components/DashboardCard';
 const DataReportHome: React.FC = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-6 text-gray-800">Data Report</h1>
+      <h1 className="text-2xl font-bold my-6 text-gray-800">Data Report</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <DashboardCard
           title="Student Wise Data Report"

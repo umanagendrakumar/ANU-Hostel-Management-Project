@@ -36,7 +36,7 @@ export const LandingPage: React.FC = () => {
       </div>
 
       {/* Footer (20% Height) */}
-      <footer className="h-[10vh] bg-white border-t border-gray-200 flex items-center justify-center text-gray-600 p-4 mt-4">
+      <footer className="h-[10vh] bg-white border-t border-gray-200 flex items-center justify-center text-gray-600 p-4 mt-4 text-center">
         <p>© 2025 Acharya Nagarjuna University. All rights reserved.</p>
       </footer>
 
