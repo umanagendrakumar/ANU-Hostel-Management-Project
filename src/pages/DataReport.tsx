@@ -36,14 +36,14 @@ const UnderConstruction: React.FC<{ title: string }> = ({ title }) => {
 
   return (
     <div className="max-w-2xl mx-auto text-center">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between m-6">
         <h2 className="text-2xl font-bold">{title}</h2>
-        <button
+        {/* <button
           onClick={() => navigate(-1)}
           className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
         >
           <ArrowLeft size={20} />
-        </button>
+        </button> */}
       </div>
       <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
         <div className="flex items-center justify-center mb-4">

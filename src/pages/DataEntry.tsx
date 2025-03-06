@@ -41,12 +41,12 @@ const StudentWiseEntry: React.FC = () => {
     <div className="max-w-2xl mx-auto">
       <div className="flex items-center justify-between m-6">
         <h2 className="text-2xl font-bold">Student-wise Data Entry</h2>
-        <button
+        {/* <button
           onClick={() => navigate(-1)}
           className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
         >
           <ArrowLeft size={20} />
-        </button>
+        </button> */}
       </div>
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-xl shadow-md">
         <div className="mb-4">
@@ -84,12 +84,12 @@ const ClassWiseEntry: React.FC = () => {
     <div className="max-w-2xl mx-auto">
       <div className="flex items-center justify-between m-6">
         <h2 className="text-2xl font-bold">Class-wise Data Entry</h2>
-        <button
+        {/* <button
           onClick={() => navigate(-1)}
           className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
         >
           <ArrowLeft size={20} />
-        </button>
+        </button> */}
       </div>
       <div className="bg-white p-6 rounded-xl shadow-md">
         <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
