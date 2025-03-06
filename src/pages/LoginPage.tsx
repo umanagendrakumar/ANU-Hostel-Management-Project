@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Lock, User, ArrowLeft } from 'lucide-react';
 import toast from 'react-hot-toast';
+import myphoto from '../assets/anu-logo.png';
+
 
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
@@ -25,16 +27,16 @@ export const LoginPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8 mx-5">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <button
+        {/* <button
           onClick={() => navigate('/')}
           className="absolute top-4 left-4 p-2 flex items-center text-gray-600 hover:text-gray-900 transition-colors"
         >
           <ArrowLeft className="w-5 h-5 mr-1" />
           <span>Back</span>
-        </button>
+        </button> */}
 
-        <div className="bg-blue-600 p-4 rounded-2xl shadow-lg mx-auto w-fit transform hover:scale-105 transition-transform duration-300">
-          <User className="w-12 h-12 text-white" />
+        <div className="p-4 rounded-2xl shadow-lg mx-auto w-fit transform hover:scale-105 transition-transform duration-300">
+        <img src={myphoto} alt="ANUCET Logo" className="w-32 h-32 rounded-full object-cover" />
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           Admin Login
@@ -48,7 +50,7 @@ export const LoginPage: React.FC = () => {
         <div className="bg-white py-8 px-4 shadow-xl sm:rounded-xl sm:px-10">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="username" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="username" className="block text-sm font-medium text-gray-700 ">
                 Username
               </label>
               <div className="mt-1 relative">

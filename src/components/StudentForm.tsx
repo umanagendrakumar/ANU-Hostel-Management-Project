@@ -291,6 +291,7 @@ export const StudentForm: React.FC<StudentFormProps> = ({ isEditing = false }) =
               required
             >
               <option value="O.C.">O.C.</option>
+              <option value="E.W.S.">E.W.S.</option>
               <option value="SC">SC</option>
               <option value="ST">ST</option>
               <option value="BC-A">BC-A</option>
