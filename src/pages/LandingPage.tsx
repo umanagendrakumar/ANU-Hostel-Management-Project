@@ -10,7 +10,7 @@ export const LandingPage: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-50 via-white to-blue-50">
       
       {/* Hero Section (80% Height) */}
-      <div className="relative overflow-hidden h-[90vh] flex flex-col justify-center items-center">
+      <div className="h-[90vh] flex flex-col justify-center items-center">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center mb-8 animate-fade-in">
@@ -36,7 +36,7 @@ export const LandingPage: React.FC = () => {
       </div>
 
       {/* Footer (20% Height) */}
-      <footer className="h-[10vh] bg-white border-t border-gray-200 flex items-center justify-center text-gray-600">
+      <footer className="h-[10vh] bg-white border-t border-gray-200 flex items-center justify-center text-gray-600 p-4 mt-4">
         <p>© 2025 Acharya Nagarjuna University. All rights reserved.</p>
       </footer>
 
