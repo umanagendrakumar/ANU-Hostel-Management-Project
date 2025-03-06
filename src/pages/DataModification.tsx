@@ -39,7 +39,7 @@ const StudentWiseModification: React.FC = () => {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between m-6">
         <h2 className="text-2xl font-bold">Student-wise Data Modification</h2>
         <button
           onClick={() => navigate(-1)}
@@ -82,7 +82,7 @@ const ClassWiseModification: React.FC = () => {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between m-6">
         <h2 className="text-2xl font-bold">Class-wise Data Modification</h2>
         <button
           onClick={() => navigate(-1)}

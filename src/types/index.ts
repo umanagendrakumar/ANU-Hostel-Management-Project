@@ -14,7 +14,7 @@ export interface StudentData {
   nativePlace: string;
   permanentAddress: string;
   distance: number;
-  category: 'SC' | 'ST' | 'BC-A' | 'BC-B' | 'BC-C' | 'BC-D' | 'BC-E' | 'Minority' | 'O.C.';
+  category: 'SC' | 'ST' | 'BC-A' | 'BC-B' | 'BC-C' | 'BC-D' | 'BC-E' | 'Minority' | 'O.C.' | 'E.W.S.';
   physicallyChallenge: boolean;
   bloodGroup: string;
   messOption: 'Vegetarian' | 'Non-vegetarian';
